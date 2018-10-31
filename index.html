@@ -1,0 +1,13 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<body ng-controller="myCtrl as vm">
+
+    {{vm.gmtTime | localTime: 'MM-dd-yyyy - hh.mm a' }}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>
